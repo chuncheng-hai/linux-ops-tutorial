@@ -68,11 +68,11 @@ PID
 ## 1.3 Linux的文件结构
 
 
-Linux 基于层次结构标准（FHS, Filesystem Hierarchy Standard）组织文件系统
+Linux 基于[FHS(文件系统层次标准)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)组织文件系统
 
 ```Markdown
-/
-├── bin      # 基本命令
+/            # 一级层次根和整个文件系统层次结构的根目录
+├── bin      # 必需的命令、二进制文件，在单用户模式下需要可用，为所有用户提供的基础命令。
 ├── boot     # 启动文件
 ├── dev      # 设备文件
 ├── etc      # 配置文件
@@ -112,10 +112,13 @@ mount -l
 路径映射
 
 权限管理
-用户
-用户组
+Linux的各个发行版都是多用户操作系统
+useradd 增加用户，userdel删除用户
+基于用户、用户组与其它进行权限管理
+权限位
 sudo提权组
 chmod
+chmod +x ./test.sh
 chown
 读取权限 r 4
 写入权限 w 2
