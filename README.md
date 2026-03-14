@@ -1,5 +1,7 @@
 # 动手学Linux运维
 
+[本书在线阅读地址](https://linux-ops-tutorial.vercel.app)需要科学上网访问
+
 这本书适合哪些人看
 [如何成为一名黑客](https://translations.readthedocs.io/en/latest/index.html)  
 
