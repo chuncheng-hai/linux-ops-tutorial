@@ -3,6 +3,8 @@
 
 ## 1.1 Linux的前世今生
 
+<div class="quiz-block" data-quiz-id="c1-1-history"></div>
+
 > "你对于那个问题不能解决吗？那末，你就去调查那个问题的现状和它的历史吧！你完完全全调查明白了，你对那个问题就有解决的办法了。"——《反对本本主义》
 
 尽管有些情景下Linux被认为是一个类UNIX操作系统(Unix-like OS)，但事实上Linux具体是指一个操作系统内核(kernel)。
@@ -21,6 +23,8 @@ Linux系统运维工程师日常接触的是RedHat/CentOS、Debian/Ubuntu、Kali
 [《UNIX传奇》](https://book.douban.com/subject/35292726/)
 
 ## 1.2 Linux的基础命令及其实践技巧  
+
+<div class="quiz-block" data-quiz-id="c1-2-commands"></div>
 
 Linux命令分为**内建命令**与**外部命令**两种。内建命令，由Shell本身提供，如echo命令。基于type命令，可以判断一条命令是内建命令还是外呼命令。如执行`type 'echo'`输出，执行`type 'mkdir'`输出
 
@@ -66,6 +70,8 @@ ps aux | grep python3
 PID
 
 ## 1.3 Linux的文件结构
+
+<div class="quiz-block" data-quiz-id="c1-3-filesystem"></div>
 
 
 Linux 基于[FHS(文件系统层次标准)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)组织文件系统
@@ -219,8 +225,12 @@ ssh免密配置
 
 ## Linux的运行级别
 
+<div class="quiz-block" data-quiz-id="c1-4-runlevel"></div>
+
 
 ## Linux下的软件安装
+
+<div class="quiz-block" data-quiz-id="c1-5-install"></div>
 
 依赖
 
